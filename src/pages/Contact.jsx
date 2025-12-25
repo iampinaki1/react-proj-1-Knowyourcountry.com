@@ -1,8 +1,9 @@
 import React from 'react'
+import Form from '../components/Form'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='h-screen'><Form/></div>
   )
 }
 

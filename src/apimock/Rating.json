@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "65f1a1c2e9b1a001a1a00001",
+    "animename": "Naruto",
+    "email": "naruto.fan1@gmail.com",
+    "rating": 5,
+    "message": "An emotional journey of hard work, friendship, and dreams."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00002",
+    "animename": "One Piece",
+    "email": "onepiece.lover@gmail.com",
+    "rating": 5,
+    "message": "Best world-building and adventure anime ever made."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00003",
+    "animename": "Attack on Titan",
+    "email": "aot.viewer@gmail.com",
+    "rating": 5,
+    "message": "Dark, intense, and full of unexpected twists."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00004",
+    "animename": "Death Note",
+    "email": "kira.fan@gmail.com",
+    "rating": 4,
+    "message": "Mind games between Light and L are legendary."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00005",
+    "animename": "Demon Slayer",
+    "email": "demonslayer.fx@gmail.com",
+    "rating": 4,
+    "message": "Amazing animation and emotional storytelling."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00006",
+    "animename": "Jujutsu Kaisen",
+    "email": "jjk.fan@gmail.com",
+    "rating": 4,
+    "message": "Fast-paced action with cool characters."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00007",
+    "animename": "Dragon Ball Z",
+    "email": "dbz.power@gmail.com",
+    "rating": 5,
+    "message": "Classic anime that defined an era."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00008",
+    "animename": "Fullmetal Alchemist: Brotherhood",
+    "email": "fma.bro@gmail.com",
+    "rating": 5,
+    "message": "Perfect balance of story, action, and emotions."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00009",
+    "animename": "Tokyo Ghoul",
+    "email": "ghoul.tokyo@gmail.com",
+    "rating": 3,
+    "message": "Great concept but later seasons felt rushed."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00010",
+    "animename": "My Hero Academia",
+    "email": "hero.academia@gmail.com",
+    "rating": 4,
+    "message": "Inspiring story about becoming a hero."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00011",
+    "animename": "Bleach",
+    "email": "bleach.soul@gmail.com",
+    "rating": 4,
+    "message": "Stylish fights and memorable characters."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00012",
+    "animename": "Spy x Family",
+    "email": "spy.family@gmail.com",
+    "rating": 5,
+    "message": "Wholesome, funny, and very entertaining."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00013",
+    "animename": "Chainsaw Man",
+    "email": "chainsaw.fx@gmail.com",
+    "rating": 4,
+    "message": "Unique story with brutal action."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00014",
+    "animename": "Steins;Gate",
+    "email": "timetravel.anime@gmail.com",
+    "rating": 5,
+    "message": "One of the best time-travel anime ever."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00015",
+    "animename": "Erased",
+    "email": "erased.viewer@gmail.com",
+    "rating": 4,
+    "message": "Emotional thriller with a strong start."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00016",
+    "animename": "Your Name",
+    "email": "yourname.movie@gmail.com",
+    "rating": 5,
+    "message": "Beautiful animation and touching story."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00017",
+    "animename": "A Silent Voice",
+    "email": "silent.voice@gmail.com",
+    "rating": 5,
+    "message": "Deep and emotional story about redemption."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00018",
+    "animename": "Haikyuu",
+    "email": "haikyuu.sports@gmail.com",
+    "rating": 5,
+    "message": "Motivating sports anime with great teamwork."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00019",
+    "animename": "Black Clover",
+    "email": "blackclover.magic@gmail.com",
+    "rating": 4,
+    "message": "Never giving up is the core theme."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00020",
+    "animename": "Vinland Saga",
+    "email": "vinland.saga@gmail.com",
+    "rating": 5,
+    "message": "Strong character development and mature themes."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00021",
+    "animename": "Re:Zero",
+    "email": "rezero.loop@gmail.com",
+    "rating": 4,
+    "message": "Psychological and emotional rollercoaster."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00022",
+    "animename": "Code Geass",
+    "email": "geass.king@gmail.com",
+    "rating": 5,
+    "message": "One of the best endings in anime history."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00023",
+    "animename": "Fairy Tail",
+    "email": "fairytail.guild@gmail.com",
+    "rating": 3,
+    "message": "Friendship-focused and enjoyable."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00024",
+    "animename": "Hunter x Hunter",
+    "email": "hunter.exam@gmail.com",
+    "rating": 5,
+    "message": "Dark themes hidden behind a simple start."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00025",
+    "animename": "Blue Lock",
+    "email": "bluelock.ego@gmail.com",
+    "rating": 4,
+    "message": "Unique take on sports anime."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00026",
+    "animename": "Sword Art Online",
+    "email": "sao.player@gmail.com",
+    "rating": 3,
+    "message": "Good concept but inconsistent execution."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00027",
+    "animename": "Dr. Stone",
+    "email": "science.anime@gmail.com",
+    "rating": 4,
+    "message": "Science made fun and interesting."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00028",
+    "animename": "Mob Psycho 100",
+    "email": "mob.psycho@gmail.com",
+    "rating": 5,
+    "message": "Great character growth and animation style."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00029",
+    "animename": "Cyberpunk: Edgerunners",
+    "email": "cyberpunk.anime@gmail.com",
+    "rating": 5,
+    "message": "Short, intense, and emotionally devastating."
+  },
+  {
+    "_id": "65f1a1c2e9b1a001a1a00030",
+    "animename": "Solo Leveling",
+    "email": "solo.level@gmail.com",
+    "rating": 4,
+    "message": "Hype action and power progression."
+  }
+]

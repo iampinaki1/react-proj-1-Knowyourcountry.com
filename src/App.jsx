@@ -8,8 +8,8 @@ import {
 import "./App.css";
 import 'remixicon/fonts/remixicon.css'
 import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import Country from "./pages/Country.jsx";
+import Quizz from "./pages/Quizz.jsx";
+import Rating from "./pages/Rating.jsx";
 import Contact from "./pages/Contact.jsx";
 import RootLayout from "./layouts/RootLayout.jsx";
 import Error from "./pages/Error.jsx";
@@ -19,8 +19,8 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout/>}  errorElement={<Error/>} >
         <Route index element={<Home />} />
-        <Route path="About" element={<About />} />
-        <Route path="Country" element={<Country />} />
+        <Route path="Quizz" element={<Quizz />} />
+        <Route path="Ratings" element={<Rating />} />
         <Route path="Contact" element={<Contact />} />
         
       </Route>

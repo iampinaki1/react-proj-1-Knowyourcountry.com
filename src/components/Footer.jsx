@@ -16,10 +16,10 @@ function Footer() {
              {/* <NavLink to =''> <span className="rounded-3xl  cursor-pointer bg-white/8 p-2">About</span></NavLink> */}
             </li>
             <li>
-              <NavLink to ='/Contact' className={({isActive})=>isActive?'':'hidden'}><span className="rounded-3xl backdrop-blur-md bg-white/14 p-2">Contact Us</span></NavLink>
+              <NavLink to ='/Contact' className={({isActive})=>isActive?'':'hidden'}><span className="rounded-3xl backdrop-blur-md bg-white/14 p-2">Rate</span></NavLink>
             </li>
             <li>
-           <NavLink to='/Country' className={({isActive})=>isActive?'':'hidden'}><span className="rounded-3xl backdrop-blur-md bg-white/14 p-2">Country</span></NavLink>
+           <NavLink to='/Ratings' className={({isActive})=>isActive?'':'hidden'}><span className="rounded-3xl backdrop-blur-md bg-white/14 p-2">Rating</span></NavLink>
             </li>
           </ul>
         </div>
@@ -29,7 +29,8 @@ function Footer() {
           I am Pinaki Mohanty, a first-year B.Tech student. I am focused on
           building a solid foundation in programming, problem-solving, and core
           engineering concepts, and I am motivated to continuously improve my
-          skills for the software industry.
+          skills for the software industry. 
+         <span className=" ml-1 bg-white/50 px-1.5 text-sm rounded-2xl"> Copyright © 2025 KnowYourAnime.Com. All rights reserved.</span>
         </p>
       </div></div>
          <ul className="flex justify-center items-center gap-3">
