@@ -67,3 +67,15 @@ const [submitted,setSubmitted]=useState(false)
 }
 
 export default Form;
+// Rating
+// : 
+// "3"
+// animename
+// : 
+// "qer"
+// email
+// : 
+// "rewrw"
+// message
+// : 
+// "werewr"
