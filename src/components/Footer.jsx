@@ -28,9 +28,8 @@ function Footer() {
         <p className="bg-white/9 p-1 backdrop-blur-md text-sm">
           I am Pinaki Mohanty, a first-year B.Tech student. I am focused on
           building a solid foundation in programming, problem-solving, and core
-          engineering concepts, and I am motivated to continuously improve my
-          skills for the software industry. 
-         <span className=" ml-1 bg-white/50 px-1.5 text-sm rounded-2xl"> Copyright © 2025 KnowYourAnime.Com. All rights reserved.</span>
+          engineering concepts,and I am motivated to continuously improve my
+          skills for the software industry.<br/> <span className=" ml-1 bg-white/50 px-1.5 text-sm rounded-2xl"> Copyright © 2025 KnowYourAnime.Com. All rights reserved.</span>
         </p>
       </div></div>
          <ul className="flex justify-center items-center gap-3">

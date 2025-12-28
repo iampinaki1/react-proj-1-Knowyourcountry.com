@@ -2,9 +2,10 @@ import express from "express";
 import dotenv from "dotenv";
 import connect from "./db.js";
 import mongoose from "mongoose";
+import cors from 'cors'
 const app = express();
 dotenv.config();
-
+app.use(cors())
 const animeReviewSchema = new mongoose.Schema(
   {
     animename: {
@@ -38,9 +39,7 @@ const animeReviewSchema = new mongoose.Schema(
 );
 const AnimeReview = mongoose.model("AnimeReview", animeReviewSchema);
 
-export default AnimeReview;
-
-app.post("api/Rating", async (req, res) => {
+app.post("/api/Rating", async (req, res) => {
  
 try {
     await AnimeReview.create(req.body.anime)
@@ -50,7 +49,7 @@ try {
   
 }
 });
-app.get("api/Rating", async (req, res)=>{
+app.get("/api/Rating", async (req, res)=>{
 try {
      const list= await AnimeReview.find()
      res.json(list)

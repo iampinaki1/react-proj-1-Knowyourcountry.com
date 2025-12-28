@@ -33,6 +33,7 @@ export default function RateComponent() {
   }, []);
 
   if (error) {
+    console.log('error')
     return <div>server error...</div>;
   }
   if (loading) {
