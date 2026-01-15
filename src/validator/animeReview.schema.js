@@ -11,7 +11,7 @@ export const animeReviewSchema = z.object({
     .email("Invalid email address"),
 
   rating: z
-    .number()
+    .coerce.number()
     .min(1, "Min rating is 1")
     .max(5, "Max rating is 5"),
 

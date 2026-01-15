@@ -6,6 +6,7 @@ import cors from 'cors'
 const app = express();
 dotenv.config();
 app.use(cors())
+app.use(express.json())
 const animeReviewSchema = new mongoose.Schema(
   {
     animename: {
@@ -29,7 +30,6 @@ const animeReviewSchema = new mongoose.Schema(
     },
     message: {
       type: String,
-      required: true,
       trim: true,
     },
   },
@@ -41,9 +41,9 @@ const AnimeReview = mongoose.model("AnimeReview", animeReviewSchema);
 
 app.post("/api/Rating", async (req, res) => {
  
-try {
-    await AnimeReview.create(req.body.anime)
-  
+try {  console.log(req.body)
+    await AnimeReview.create(req.body)
+
     res.json({msg:"recieved"});
 } catch (error) { console.log(error)
   

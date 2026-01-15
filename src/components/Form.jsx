@@ -5,36 +5,37 @@ import axios from "axios";
 import { animeReviewSchema } from "../validator/animeReview.schema";
 
 function Form() {
-
-    const [rating, setRating] = useState(0);
+  const [rating, setRating] = useState(1);
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState({});
   const handleFormSubmit = (formData) => {
+
     const formInputData = Object.fromEntries(formData.entries());
+        formInputData.rating = Number(formInputData.rating);
+
     console.log(formInputData);
     const result = animeReviewSchema.safeParse(formInputData);
-
+    console.log(result.error);
     if (!result.success) {
+      setSubmitted(false);
       const fieldErrors = {};
-      result.error.errors.forEach((err) => {
-      fieldErrors[err.path[0]] = err.message;
-      setErrors(fieldErrors)
+      result.error.issues.forEach((err) => {
+        fieldErrors[err.path[0]] = err.message;
       });
-      console.log("hello",fieldErrors);
+      setErrors(fieldErrors);
+      console.log("hello", fieldErrors);
       return;
     }
     (async () => {
       try {
         await axios.post("http://localhost:3000/api/Rating", result.data);
-         setSubmitted(true)
+        console.log(result.data);
+        setSubmitted(true);
       } catch (err) {
         console.error(err);
-       
       }
     })();
   };
-
-
 
   return (
     <div
@@ -51,7 +52,8 @@ function Form() {
               name="animename"
               id="name"
               autoComplete="off"
-            />
+            />{" "}
+            {errors.animename && <p>{errors.animename}</p>}
           </div>
           <div className="backdrop-blur-md flex justify-between items-center gap-2 p-4">
             <label htmlFor="email">Email Id</label>
@@ -61,7 +63,8 @@ function Form() {
               className="bg-white/20 p-2 rounded-sm"
               name="email"
               id="email"
-            />
+            />{" "}
+            {errors.email && <p>{errors.email}</p>}
           </div>
           <div className="backdrop-blur-md items-center flex justify-between p-4">
             <label htmlFor="rating">Rate It </label>
@@ -75,13 +78,14 @@ function Form() {
               name="rating"
               value={rating}
               onChange={(e) => {
-                setRating(e.target.value);
+                setRating(Number(e.target.value)); //silent bug...wow bro u r preo...
               }}
               min="1"
               max="5"
               id="Rating"
             />
-          </div>
+          </div>{" "}
+          <div> {errors.rating && <p>{errors.rating}</p>}</div>
           <div className="backdrop-blur-md items-center flex justify-between gap-4 p-4">
             <label htmlFor="message">Message</label>
             <textarea
@@ -97,9 +101,9 @@ function Form() {
             <span className=" backdrop-blur-3xl border border-double bg-white/40 p-1 rounded-2xl">
               <button
                 type="submit"
-                onClick={() => {
-                  setSubmitted(true);
-                }}
+                // onClick={() => {
+                //   setSubmitted(true);
+                // }}
                 className="cursor-pointer"
               >
                 Submit Rating
@@ -113,12 +117,6 @@ function Form() {
           <span className="text-green-300 rounded-2xl p-2 mt-2">submitted</span>
         </div>
       </form>
-      <div>
-        {" "}
-        {errors.animename && <p>{errors.animename}</p>}
-        {errors.email && <p>{errors.email}</p>}
-        {errors.rating && <p>{errors.rating}</p>}
-      </div>
     </div>
   );
 }
